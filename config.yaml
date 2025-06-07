@@ -1,0 +1,32 @@
+# Source Configuration
+zip_path: "C:\\huggingface\\gpt-2-master.zip"
+qr_output_directory: "images"
+file_output_directory: "output"
+temp_directory: "temp"
+
+# QR Code Settings
+max_chunk_size: 2048
+qr_error_correction: "M"  # L, M, Q, H
+qr_box_size: 10
+qr_border: 4
+qr_version: null  # Auto-detect optimal version
+
+# XML Template
+xml_template: '<doc page="{page_num}" x="@tariusdamon" file="{filename}" chunk="{chunk_id}" total="{total_chunks}">{content}</doc>'
+
+# File Processing
+preserve_structure: true
+include_hidden_files: false
+compress_before_encoding: true
+calculate_checksums: true
+
+# Performance Settings
+batch_size: 100
+use_multiprocessing: true
+max_workers: 4
+memory_limit_mb: 4096
+
+# Decoding Settings
+verify_integrity: true
+auto_detect_qr_format: true
+reconstruction_mode: "sequential"  # sequential, parallel
