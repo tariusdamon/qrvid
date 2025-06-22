@@ -6,6 +6,9 @@ A high-performance Python project that extracts all files from a zip archive, co
 
 This project processes zip archives (specifically targeting `gpt-2-master.zip`) and converts all contained files into QR codes. Each QR code contains XML-wrapped content with a maximum payload of 2048 characters. The project includes both encoding (zip → QR codes) and decoding (QR codes → reconstructed files) capabilities.
 
+Too many words? I get that. Check this video out. Use your phone to decode the secret content.
+[![Watch the video](https://img.youtube.com/vi/YQ1vFxnxGUs/hqdefault.jpg)](https://www.youtube.com/embed/YQ1vFxnxGUs)
+
 ## Features
 
 - **Complete Zip Processing**: Extracts and processes ALL files from zip archives
